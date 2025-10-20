@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Frijole&family=Overpass+Mono:wght@700&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Nosifer&display=swap');
+@import url('http://fonts.cdnfonts.com/css/chinese-rocks');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Playfair+Display+SC:ital,wght@1,900&family=Poppins:wght@500&display=swap');
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: black;
+  margin: 0;
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: black;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(60, 60, 60);
+  border-radius: 100px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: lightgrey;
+  border-radius: 10px;
+  height:60px;
+  scroll-behavior: smooth;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(120, 120, 120);
+}
+
+#menuToggler, nav {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#menuToggler {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 0.0em;
+  width:100vw;
+  font-size: 1.6em;
+  padding: 0 0.5rem;
+  z-index: 20;
+  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#menuToggler:hover {
+  color: red;
+}
+
+header, main {
+  overflow: auto;
+}
+
+header .video {
+  display: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-weight: bold;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("../images/rdr2 horse gang.jpg");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  z-index: 16;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+header h1 {
+  color: white;
+  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-size: 2.9em;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  grid-template-rows:1em 0.6em;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  word-spacing: -0.1em;
+  letter-spacing: 0.1rem;
+}
+
+header h1 span:nth-child(2) {
+  grid-row: 1/4;
+  grid-column: 2;
+  font-family: "Patua One", sans-serif, Arial;
+  font-size: 1.8em;
+  font-weight:lighter;
+  color: rgb(216,0,0);
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows:1em 1em;
+  text-align: -webkit-left;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Nosifer", "Frijole", sans-serif, Arial;
+  font-size: 1.4rem;
+  opacity: 0;
+  transition: 0.5s;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+header nav.open {
+  z-index: 15;
+  opacity: 1;
+  transition: 0.5s;
+  display: flex;
+  padding-top:1em;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  word-spacing: -.09em;
+  padding: 1.7em 1em;
+  margin: 0;
+  text-align: left;
+  transition: 0.3s;
+}
+
+header nav a:hover {
+  color:red;
+}
+
+.video {
+  width:100%;
+}
+
+section {
+  max-width: 100%;
+  background-size: cover;
+}
+
+main {
+  font-family: "Barlow Condensed", sans-serif, Arial;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 21px;
+  width: 100%;
+  padding: 0;
+  box-sizing: inherit;
+  overflow-x: hidden;
+}
+
+main img {
+  width:100%;
+  height: 12em;
+}
+
+p {
+  padding: 0px 15px;
+  text-align: justify;
+}
+
+#alert {
+  font-family: "Nosifer", sans-serif, Arial;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  background-color: black;
+  margin: 0;
+  padding: 1em;
+}
+
+#spoiler {
+  font-size: 1.4rem;
+}
+
+.wait{
+  background-color: black;
+  margin: 0;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px black,
+      0 0 20px black,
+      0 0 30px black,
+      0 0 40px black,
+      0 0 50px black,
+      0 0 60px black,
+      0 0 70px black;
+  }
+
+  to {
+    text-shadow: 0 0 20px black,
+      0 0 30px black,
+      0 0 40px red,
+      0 0 50px red,
+      0 0 60px red,
+      0 0 70px red,
+      0 0 80px red;
+  }
+}
+
+div {
+  padding: 0.4em;
+}
+
+h2 {
+  margin: 0;
+  padding: 50px 0 0;
+  text-align: center;
+  font-family: "Pangolin", sans-serif, Arial;
+}
+
+section.images {
+  display:flex;
+  flex-direction:column;
+}
+
+article {
+  position: relative;
+  z-index: 10;
+}
+
+article img {
+  width:100%;
+  box-sizing: border-box;
+}
+
+footer p {
+  background-color: rgb(160,0,0);
+  margin:0;
+  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-size: 2.6em;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 2px black;
+}
+/******************************************************************************/
+/* TABLET STYLES */
+@media screen and (min-width: 400px) {
+
+  #menuToggler {
+    font-size: 2.2em;
+  }
+
+  header {
+    background-image: url("../images/red cover.jpg");
+    background-position: center;
+  }
+
+  header h1 {
+    text-shadow:10px 1px 1px black;
+    font-size: 3.8em;
+  }
+
+  header h1 span:nth-child(2) {
+    text-shadow:10px 1px 1px black;
+  }
+
+  header nav {
+    font-weight: lighter;
+  }
+
+  header nav a {
+    font-size: 1.1em;
+    padding: 1.7em 1em;
+    margin: 0;
+  }
+
+  header nav.open {
+    width: 94vw;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  #alert {
+    font-size: 1.3em;
+  }
+
+  #spoiler{
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  main img {
+    height: 15em;
+  }
+
+  .outlaws {
+    font-size: 2.5em;
+  }
+
+  footer p {
+    font-size: 3.6em;
+  }
+
+}
+/****************************************************************************/
+@media screen and (min-width: 500px) {
+
+  #menuToggler {
+    font-size: 2.5em;
+  }
+
+  header {
+    background-image: url("../images/horse gang.jpg");
+    background-position: inherit;
+  }
+
+  header h1 {
+    font-size: 4.8em;
+  }
+
+  header nav a {
+    font-size: 1.7rem;
+    padding: 1.7em 1em;
+    margin: 0;
+  }
+
+  header nav.open {
+    width: 80vw;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  #alert {
+    font-size: 1.6em;
+  }
+
+  #spoiler {
+    font-size: 1.25em;
+    padding: 0 2em;
+  }
+
+  p {
+    font-size: 1.22em;
+    text-align: center;
+  }
+
+  main img {
+    height: 20em;
+  }
+
+  footer p {
+    font-size: 4em;
+  }
+
+}
+/******************************************************************************/
+@media screen and (min-width: 600px) {
+
+  #menuToggler {
+    font-size: 2.7em;
+  }
+
+  header {
+    background-image: url("../images/rdr2 stars.jpg");
+  }
+
+  header h1 {
+    font-size: 5.3em;
+  }
+
+  header nav a {
+    font-size: 1.8rem;
+    margin: 0;
+    padding-bottom: 1em;
+  }
+
+  header nav.open {
+    width: 68vw
+  }
+
+  h2 {
+    font-size: 2.4em;
+  }
+
+  main img {
+    height: 22em;
+  }
+
+  #alert {
+    font-size: 1.9em;
+  }
+
+  #spoiler {
+    font-size: 1.25em;
+    padding: 0 4em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+
+  footer p {
+    font-size: 5em;
+  }
+
+}
+/******************************************************************************/
+@media screen and (min-width: 700px) {
+
+  #menuToggler {
+    font-size: 3em;
+  }
+
+  header {
+    background-image: url("../images/rdr2 home.jpg");
+    background-position: center;
+  }
+
+  header h1 {
+    font-size: 5.3em;
+  }
+
+  header nav {
+    font-weight: lighter;
+    padding:1rem;
+  }
+
+  header nav a {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  header nav.open {
+    width: 56.4vw;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  #alert {
+    font-size: 2em;
+  }
+
+  #spoiler {
+    font-size: 1.3em;
+    padding: 0 7em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  main img {
+    height: 24em;
+  }
+
+  footer p {
+    font-size: 6.5em;
+  }
+
+}
+/******************************************************************************/
+/* DESKTOP STYLES */
+@media screen and (min-width: 1000px) {
+
+  #menuToggler, nav {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  #menuToggler {
+    display:flex;
+    position: fixed;
+    font-size: xx-large;
+    text-align: center;
+    color:red;
+  }
+
+  #menuToggler:hover {
+    color: white;
+  }
+
+  header .video {
+    display: flex;
+    pointer-events: none;
+  }
+
+  header {
+    background-image: none;
+  }
+
+  header h1 {
+    font-size: 6.5rem;
+  }
+
+  header nav {
+    flex-direction: row;
+    height: 5rem;
+    width:100vw;
+    align-items: center;
+    opacity: 1;
+    padding: 1.9vw 0 0;
+    font-weight: lighter;
+    z-index: 15;
+  }
+
+  header nav a {
+    flex-grow: 1;
+    font-size: 1.3em;
+    text-align: center;
+    flex-shrink: 1;
+    padding: 0.1em 0.1em;
+    z-index: 15;
+  }
+
+  header nav a:hover {
+    color:red;
+  }
+
+  header nav.open {
+    z-index: -1;
+    opacity: 0;
+    transform: translateY(-100vw);
+    display: flex;
+  }
+
+  #spoiler {
+    padding: 0 6em;
+  }
+
+  main {
+    max-width: none;
+    font-size: 1.6em;
+  }
+
+  article img {
+    width: 100%;
+    box-sizing:border-box;
+  }
+
+  section.images {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  article {
+    flex-basis: 95%;
+  }
+
+  main img {
+    width:100%;
+    height: 100%;
+  }
+
+  h2 {
+    font-size: 1.9em;
+  }
+
+  footer p {
+    font-size: 8em;
+  }
+
+}
+/*****************************************************************************/
+@media screen and (min-width: 1200px) {
+
+  header h1 {
+    font-size: 7rem;
+  }
+
+  main img {
+    width:100%;
+    height: 100%;
+  }
+
+  header nav {
+    padding: 2vw 0 0;
+    font-size: 1.4rem;
+  }
+
+  #spoiler {
+    padding: 0 10em;
+  }
+
+  .images {
+    position: relative;
+  }
+
+  footer p {
+    font-size: 10em;
+  }
+
+}

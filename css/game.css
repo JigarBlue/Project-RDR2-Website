@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Frijole&family=Overpass+Mono:wght@700&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Nosifer&display=swap');
+@import url('http://fonts.cdnfonts.com/css/chinese-rocks');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&display=swap');
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(96,0,0);
+  margin: 0;
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: black;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(60, 60, 60);
+  border-radius: 100px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: lightgrey;
+  border-radius: 10px;
+  height:60px;
+  scroll-behavior: smooth;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(120, 120, 120);
+}
+
+#menuToggler, nav {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#menuToggler {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 0.0em;
+  width:100vw;
+  font-size: 1.6em;
+  padding: 0 0.5rem;
+  z-index: 20;
+  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#menuToggler:hover {
+  color: red;
+}
+
+header,main {
+  overflow: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-weight: bold;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("../images/vander2.png");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  z-index: 16;
+  background-color: black;
+  overflow: auto;
+  padding: 0 1rem;
+  overflow-x: hidden;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Nosifer", "Frijole", sans-serif, Arial;
+  font-size: 1.4rem;
+  opacity: 0;
+  transition: 0.5s;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+header nav.open {
+  z-index: 15;
+  opacity: 1;
+  display: flex;
+  transition: 0.5s;
+  padding-top:1em;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  word-spacing: -.09em;
+  padding: 1.7em 1em;
+  margin: 0;
+  text-align: left;
+  transition: 0.3s;
+}
+
+header nav a:hover {
+  color:red;
+}
+
+section h1 {
+  padding: 38px 1px 0;
+  max-width: 100%;
+  background-size: cover;
+  margin:0;
+  background-color: black;
+}
+
+.info {
+  font-family: "Barlow Condensed", sans-serif, Arial;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0 1em;
+  padding-top: 1em;
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+  border: none;
+}
+
+.info2 {
+  font-family: "Barlow Condensed", sans-serif, Arial;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0 1em;
+  padding-bottom: 1em;
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+  border: none;
+}
+
+.video {
+  pointer-events:all;
+  width: 90%;
+  cursor: pointer;
+  border:1px solid white;
+  background-color: black;
+}
+
+#gameTrailer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+#intro {
+  color:white;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif, Arial;
+  font-size: 1.5em;
+  background-color: rgb(96,0,0);
+  margin: 0;
+  padding: 1em 1em;
+}
+
+.world {
+  margin: 0;
+  background-color: black;
+}
+
+p {
+  font-size: 1em;
+  margin:0.50em;
+  padding: 1em 1.3em;
+  font-weight: normal;
+}
+
+main {
+  font-family: "Barlow Condensed", sans-serif, Arial;
+  background-color: rgb(96,0,0);
+  color: white;
+  text-align: center;
+  font-size: 21px;
+  width: 100%;
+  padding: 0;
+  box-sizing: inherit;
+  overflow-x: hidden;
+}
+
+main img {
+  width:100%;
+  height: 11em;
+}
+
+div {
+  padding: 0.4em;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  background-color: black;
+}
+
+article {
+  position: relative;
+  z-index: 10;
+  background-color: black;
+}
+
+article h2 {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0.1em;
+  background-color: rgba(0,0,0,0.7);
+  font-size: larger;
+  font-weight: normal;
+  width:100vw;
+}
+
+.jungle {
+  background-color: black;
+  margin: 0;
+}
+
+#missions {
+  background-color: black;
+  margin: 0;
+}
+
+.red {
+  background-color: rgb(96,0,0);
+  margin: 0;
+}
+
+#honour {
+  background-color: rgb(96,0,0);
+  margin: 0;
+}
+
+#wild {
+  background-color: black;
+  margin: 0;
+  padding: 1em;
+}
+
+.gameplay {
+  background-color: black;
+}
+
+h3 {
+  top: 0;
+  margin: 0;
+  padding: 0.1em;
+  padding-top:1em;
+  font-size: larger;
+  font-weight: normal;
+  width:100vw;
+  text-shadow: 5px 2px black;
+}
+
+.gameplay2 {
+  background-color: rgb(96,0,0);
+}
+
+.soundtrack {
+  background-color: black;
+  margin:0;
+}
+
+#cover {
+  width: 90%;
+  height: 40%;
+}
+
+#sound {
+  background-color: black;
+}
+
+table {
+  font-family: "Barlow Condensed", sans-serif, Arial;
+  border-collapse: collapse;
+  table-layout: fixed;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
+td, th {
+  border: 0px solid black;
+  text-align: left;
+  padding: 4px 6px;
+  border-bottom: 1px solid darkred;
+}
+
+#ns {
+  background-color: rgb(96,0,0);
+  text-shadow: 5px 2px black;
+  font-size: 1.5em;
+}
+
+.platform {
+  background-color: #c00;
+  margin:0;
+  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-size: 2em;
+  font-weight: normal;
+  background-color: rgb(96,0,0);
+  text-shadow: 5px 2px black;
+}
+
+.console {
+  text-align: center;
+  margin: 0;
+  padding:1em;
+  background-color: rgb(96,0,0);
+  text-shadow: 5px 2px black;
+}
+/******************************************************************************/
+/* TABLET STYLES */
+@media screen and (min-width: 400px) {
+
+  #menuToggler {
+    font-size: 2.2em;
+  }
+
+  header nav {
+    font-weight: lighter;
+  }
+
+  header nav a {
+    font-size: 1.1em;
+    padding: 1.7em 1em;
+    margin: 0;
+  }
+
+  header nav.open {
+    width: 94vw;
+  }
+
+  main img {
+    height: 15em;
+  }
+
+  article  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  #missions {
+    padding: 1em;
+  }
+
+  #ns {
+    font-size: 1.5em;
+  }
+
+  #cj {
+    font-size: 1.2em;
+  }
+
+  #cover {
+    width: 80%;
+  }
+
+  td, th{
+    padding: 4px 29px;
+  }
+
+  .platform {
+    font-size: 2.2em;
+  }
+
+}
+/****************************************************************************/
+@media screen and (min-width: 500px) {
+
+  #menuToggler {
+    font-size: 2.5em;
+  }
+
+  header {
+    background-position: center;
+    background-image: url("../images/952678.jpg");
+  }
+
+  header nav a {
+    font-size: 1.7rem;
+    padding: 1.7em 1em;
+    margin: 0;
+  }
+
+  header nav.open {
+    width: 80vw;
+  }
+
+  .info {
+    font-size: 2.1em;
+  }
+
+  .info2 {
+    font-size: 2.1em;
+  }
+
+  main img {
+    height: 18em;
+  }
+
+  section h1 {
+    font-size: 1.8em;
+  }
+
+  article  h2 {
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.8em;
+  }
+
+  p {
+    padding: 1.2em;
+  }
+
+  #cover {
+    width: 60%;
+  }
+
+  .console {
+    padding: 1em 3em;
+  }
+
+}
+/******************************************************************************/
+@media screen and (min-width: 600px) {
+
+  #menuToggler {
+    font-size: 2.7em;
+  }
+
+  header nav a {
+    font-size: 1.8rem;
+    margin: 0;
+    padding-bottom: 1em;
+  }
+
+  header nav.open {
+    width: 68vw;
+  }
+
+  main img {
+    height: 20em;
+  }
+
+  table {
+    font-family: "Barlow Condensed", sans-serif, Arial;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  #cover {
+    width: 50%;
+    height: 40%;
+  }
+
+  .console {
+    padding: 1em 5em;
+  }
+
+}
+/******************************************************************************/
+@media screen and (min-width: 700px) {
+
+  #menuToggler {
+    font-size: 3em;
+  }
+
+  header {
+    background-image: url("../images/1050624.jpg");
+  }
+
+  header nav {
+    font-weight: lighter;
+    padding:1rem;
+  }
+
+  header nav a {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  header nav.open {
+    width: 56vw;
+  }
+
+  .info {
+    font-size: 2.8em;
+  }
+
+  .info2 {
+    font-size: 2.8em;
+  }
+
+  .video {
+    width: 80%;
+  }
+
+  .jungle {
+    margin: 0 3em;
+  }
+
+  main img {
+    height: 25em;
+  }
+
+  .soundtrack {
+    padding: 1em 2em;
+  }
+
+  #cover {
+    width: 40%;
+  }
+
+  #honour {
+    margin: 0 3em;
+  }
+
+  .console {
+    padding: 1em 7em;
+  }
+
+}
+/******************************************************************************/
+/* DESKTOP STYLES */
+@media screen and (min-width: 1000px) {
+
+  #menuToggler, nav {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  #menuToggler {
+    display:flex;
+    position: fixed;
+    font-size: xx-large;
+    text-align: center;
+    color:red;
+  }
+
+  #menuToggler:hover {
+    color: white;
+  }
+
+  header {
+    background-image: url("../images/rdr2 gang.png");
+    background-position:center;
+    font-size: 1.2em;
+  }
+
+  header nav {
+    flex-direction: row;
+    height: 5rem;
+    width:100vw;
+    align-items: center;
+    opacity: 1;
+    padding: 1.9vw 0 0;
+    font-weight: lighter;
+    z-index: 15;
+  }
+
+  header nav a {
+    flex-grow: 1;
+    font-size: 1.3em;
+    text-align: center;
+    flex-shrink: 1;
+    padding: 0.1em 0.1em;
+    z-index: 15;
+  }
+
+  header nav a:hover {
+    color:red;
+  }
+
+  header nav.open {
+    z-index: -1;
+    opacity: 0;
+    transform: translateY(-100vw);
+    display: flex;
+  }
+
+  .info {
+    font-size: 2.5em;
+  }
+
+  .info2 {
+    font-size: 2.5em;
+  }
+
+  .video {
+    width: 65%;
+  }
+
+  #intro {
+    color:white;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif, Arial;
+    font-size: 1.8em;
+  }
+
+  main {
+    max-width: none;
+    font-size: 1.6em;
+  }
+
+  main img {
+    width: 85%;
+    height: 85%;
+  }
+
+  section h1 {
+    font-size: 1.8em;
+    background-color: rgb(96,0,0);
+  }
+
+  #open {
+    background-color: black;
+  }
+
+  article {
+    position: relative;
+    z-index: 10;
+    background-color: black;
+    font-size: 1em;
+  }
+
+  article h2 {
+    position: relative;
+    text-shadow: 5px 2px black;
+    padding-top: 1em;
+  }
+
+  #wildlife {
+    background-color: black;
+  }
+
+  #characters {
+    background-color: black;
+    margin:0;
+  }
+
+  #music {
+    background-color: black;
+  }
+
+  #cover {
+    width: 30%;
+  }
+
+  #sound {
+    background-color: black;
+  }
+
+  .soundtrack {
+    padding: 1em 3em;
+  }
+
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  p {
+    border-bottom: 9px solid white;
+  }
+
+  table {
+    font-family: "Barlow Condensed", sans-serif, Arial;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .console {
+    padding: 1em 8em;
+  }
+
+}
+/*****************************************************************************/
+@media screen and (min-width: 1200px) {
+
+  .info {
+    font-size: 3em;
+  }
+
+  .info2 {
+    font-size: 3em;
+  }
+
+  #intro {
+    font-size: 2em;
+    padding: 1em 5em;
+  }
+
+  main img {
+    width:70%;
+    height: 70%;
+  }
+
+  header nav {
+    padding: 2vw 0 0;
+    font-size: 1.4rem;
+  }
+
+  .images {
+    position: relative;
+  }
+
+  p {
+    border-bottom: 9px solid black;
+    padding:1em 5em;
+  }
+
+  #missions {
+    padding:1em 5em;
+  }
+
+  .soundtrack {
+    padding: 1em 5em;
+  }
+
+  .console {
+    border-bottom: 1px solid darkred;
+    padding: 1em 10em;
+  }
+
+}
