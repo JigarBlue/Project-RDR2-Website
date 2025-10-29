@@ -1,6 +1,8 @@
-# CTEC3905 Assignment
+# Website Development as part of University Coursework
 
-Master repository contains html, css, and javascript files. These files also contains a source link for videos and images.  Images and video files are given in their specific images and videos folder.
+Programming Languages Used: HTML, CSS, JavaScript
+
+Master repository contains html, css, and javascript files. These files also contains a source link for videos and images. Images and video files are given in their specific images and videos folder.
 
 Google Chrome (Toggle Device Toolbar) Glitch:
 When resizing chrome toolbar from mobile to pc size using 'Toggle device toolbar', you will encounter an overflow x, like half text will be hidden on the right side and you will be able to move whole page from left to right using your cursor or mouse.
@@ -56,7 +58,7 @@ Noctober (2018). Arthur Kicks Out Leopold Strauss - Red Dead Redemption 2. [onli
 
 PazyPlayz (2018). RED DEAD REDEMPTION 2 // ARTHUR MORGAN // That’s the Way It Is // Tribute // (Contains SPOILERS). [online] www.youtube.com. Available at: https://www.youtube.com/watch?v=ES1Td5Pm2IE&ab_channel=PazyPlayz [Accessed 8 Apr. 2021]. ARTHUR MORGAN // That’s the Way It Is // Tribute //.
 
-Prestige_ (2018). Red Dead Redemption 2 Soundtrack - See The Fire In Your Eyes (Camp Moving From Grizzlies). [online] www.youtube.com. Available at: https://www.youtube.com/watch?v=QmHnrA4N8dk&ab_channel=Prestige_ [Accessed 5 Mar. 2021]. Red Dead Redemption 2 Soundtrack - See The Fire In Your Eyes (Camp Moving From Grizzlies).
+Prestige* (2018). Red Dead Redemption 2 Soundtrack - See The Fire In Your Eyes (Camp Moving From Grizzlies). [online] www.youtube.com. Available at: https://www.youtube.com/watch?v=QmHnrA4N8dk&ab_channel=Prestige* [Accessed 5 Mar. 2021]. Red Dead Redemption 2 Soundtrack - See The Fire In Your Eyes (Camp Moving From Grizzlies).
 
 Red (2018). Red Dead Redemption 2. [online] Red Dead Wiki. Available at: https://reddead.fandom.com/wiki/Red_Dead_Redemption_2 [Accessed 10 Mar. 2021].
 
