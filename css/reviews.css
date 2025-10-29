@@ -55,7 +55,7 @@ body {
   font-size: 1.6em;
   padding: 0 0.5rem;
   z-index: 20;
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   background-color: black;
   color: white;
   cursor: pointer;
@@ -92,7 +92,7 @@ header nav {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  font-family: "Nosifer", "Frijole", sans-serif, Arial;
+  font-family: "Nosifer", "Frijole", 'Barlow Condensed', sans-serif, Arial;
   font-size: 1.4rem;
   opacity: 0;
   transition: 0.5s;
@@ -246,7 +246,7 @@ ul {
 li {
   padding: 0;
   margin:0.3em;
-  font-family: "Akaya Kanadaka", sans-serif, Arial;
+  font-family: "Akaya Kanadaka", 'Barlow Condensed', sans-serif, Arial;
   border-bottom: 2px solid darkred;
   display: flex;
   justify-content: space-between;
@@ -263,7 +263,7 @@ li:nth-child(even) {
 
 h2 {
   flex-grow: 1;
-  font-family: "Baloo Chettan 2", "Akaya Kanadaka", sans-serif, Arial;
+  font-family: "Baloo Chettan 2", "Akaya Kanadaka", 'Barlow Condensed', sans-serif, Arial;
   font-size: 1.5em;
   font-weight: bold;
   margin:0;
@@ -282,7 +282,7 @@ footer p {
   margin: 0;
   padding: 0;
   background-color: rgb(96,0,0);
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   text-shadow: 5px 2px black;
 }
 /******************************************************************************/
