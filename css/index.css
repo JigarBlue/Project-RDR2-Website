@@ -55,7 +55,7 @@ body {
   font-size: 1.6em;
   padding: 0 0.5rem;
   z-index: 20;
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   background-color: black;
   color: white;
   cursor: pointer;
@@ -92,7 +92,7 @@ header {
 
 header h1 {
   color: white;
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   font-size: 2.9em;
   margin: 0;
   display: grid;
@@ -108,7 +108,7 @@ header h1 {
 header h1 span:nth-child(2) {
   grid-row: 1/4;
   grid-column: 2;
-  font-family: "Patua One", sans-serif, Arial;
+  font-family: "Patua One", 'Barlow Condensed', sans-serif, Arial;
   font-size: 1.8em;
   font-weight:lighter;
   color: rgb(216,0,0);
@@ -123,7 +123,7 @@ header nav {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  font-family: "Nosifer", "Frijole", sans-serif, Arial;
+  font-family: "Nosifer", "Frijole", 'Barlow Condensed', sans-serif, Arial;
   font-size: 1.4rem;
   opacity: 0;
   transition: 0.5s;
@@ -187,7 +187,7 @@ p {
 }
 
 #alert {
-  font-family: "Nosifer", sans-serif, Arial;
+  font-family: "Nosifer", 'Barlow Condensed', sans-serif, Arial;
   font-size: 1.2em;
   font-weight: normal;
   color: white;
@@ -237,7 +237,7 @@ h2 {
   margin: 0;
   padding: 50px 0 0;
   text-align: center;
-  font-family: "Pangolin", sans-serif, Arial;
+  font-family: "Pangolin", 'Barlow Condensed', sans-serif, Arial;
 }
 
 section.images {
@@ -258,7 +258,7 @@ article img {
 footer p {
   background-color: rgb(160,0,0);
   margin:0;
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   font-size: 2.6em;
   text-align: center;
   color: white;
