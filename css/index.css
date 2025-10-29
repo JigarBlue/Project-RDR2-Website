@@ -516,6 +516,7 @@ footer p {
 
   header {
     background-image: none;
+    min-height: 0vh;
   }
 
   header h1 {
