@@ -55,7 +55,7 @@ body {
   font-size: 1.6em;
   padding: 0 0.5rem;
   z-index: 20;
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   background-color: black;
   color: white;
   cursor: pointer;
@@ -90,7 +90,7 @@ header nav {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  font-family: "Nosifer", "Frijole", sans-serif, Arial;
+  font-family: "Nosifer", "Frijole", 'Barlow Condensed', sans-serif, Arial;
   font-size: 1.4rem;
   opacity: 0;
   transition: 0.5s;
@@ -140,7 +140,7 @@ header h1, h2 {
 #heading {
   margin: 0;
   padding:0;
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   font-weight: normal;
   background-color: rgba(0, 0, 0, 0.9);
   font-size: 2.4em;
@@ -393,7 +393,7 @@ h5 {
 
 em {
   font-style: normal;
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   font-size: 1.4em;
   text-shadow: 5px 2px black;
 }
@@ -409,7 +409,7 @@ em {
 
 .redDead {
   background-color: darkred;
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   font-size: 2.2em;
   text-shadow: 5px 2px black;
   letter-spacing: 0.1rem;
@@ -421,7 +421,7 @@ em {
   display: inline-grid;
   justify-content: center;
   background-color: rgb(88,0,0);
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   font-size: 1.6em;
   font-weight: normal;
   width: 100%;
@@ -433,7 +433,7 @@ em {
 .rdrVid {
   font-weight: normal;
   font-size: 1.8em;
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   margin: 0;
   padding: 0;
   padding-top:1em;
@@ -444,7 +444,7 @@ em {
 .rdrVidBlack {
   font-weight: normal;
   font-size: 1.8em;
-  font-family: "Chinese Rocks Rg", sans-serif, Arial;
+  font-family: "Chinese Rocks Rg", 'Barlow Condensed', sans-serif, Arial;
   margin: 0;
   padding: 0;
   padding-top: 1em;
@@ -516,7 +516,7 @@ ul {
 li {
   padding: 0;
   margin:0.3em;
-  font-family: "Akaya Kanadaka", sans-serif, Arial;
+  font-family: "Akaya Kanadaka", 'Barlow Condensed', sans-serif, Arial;
   border-bottom: 2px solid darkred;
   display: flex;
   justify-content: space-between;
@@ -534,7 +534,7 @@ li:nth-child(even) {
 h4 {
   flex-grow: 1;
   font-size: 1.1em;
-  font-family: "Baloo Chettan 2", "Akaya Kanadaka", sans-serif, Arial;
+  font-family: "Baloo Chettan 2", "Akaya Kanadaka", 'Barlow Condensed', sans-serif, Arial;
   font-weight: bold;
   margin:0;
   margin-left: 0.5em;
@@ -550,7 +550,7 @@ li p {
   background-color: #c00;
   margin:0;
   padding:0;
-  font-family: "Unica One", sans-serif, Arial;
+  font-family: "Unica One", 'Barlow Condensed', sans-serif, Arial;
   font-size: 3em;
   font-weight: bold;
   background-color: rgb(88,0,0);
