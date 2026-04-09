@@ -45,7 +45,7 @@ An interactive multi-page website built to practice front-end development fundam
 
   ## ⚙️ Browser Notes
 
-  > ⚠️ **Important:** For the best experience, please open this website in **Google Chrome**. It displays all features correctly with no issues. Other browsers may have minor layout inconsistencies.
+  > ⚠️ **Important:** For the best experience, please open the **Red Dead redemption II Website** in **Google Chrome**. [Live Website](https://project-rdr-2-website.vercel.app) Other browsers may show minor layout issues.
   - **Google Chrome (Toggle Device Toolbar):**
     - When resizing between mobile and desktop views, some overflow may occure (text partially hidden, page scrollable horizontally).
     - If this happens, navigate to another page and return to same page, or refresh the tab. This is a browser rendering issue and **not a problem with the code**.
