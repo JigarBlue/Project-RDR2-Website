@@ -1,30 +1,71 @@
-# Website Development as part of University Coursework
+# Red Dead Redemption II Tribute Website 🎮
 
-Programming Languages Used: HTML, CSS, JavaScript
+**Front-End Website development | University Coursework | HTML5, CSS3, JavaScript**
 
-Master repository contains html, css, and javascript files. These files also contains a source link for videos and images. Images and video files are given in their specific images and videos folder.
+An interactive multi-page website built to practice front-end development fundamentals. The site includes pages about the game, its charcaters, and a **reviews page where users can post comments about the game**, showcasing both layout design and interactive features.
 
-Google Chrome (Toggle Device Toolbar) Glitch:
-When resizing chrome toolbar from mobile to pc size using 'Toggle device toolbar', you will encounter an overflow x, like half text will be hidden on the right side and you will be able to move whole page from left to right using your cursor or mouse.
+---
 
-So when this happens, go to different page and re-visit the same page using menu link, if this doesn't work, try to close the chrome tab and re-open the site because there's nothing wrong with the code, sometime the chrome tab does this type of thing and when you will close and re-open the site, or visit another link and re-visit the same page, the page will get back to normal.
+## 🛠️ Tech Stack
 
-Website: RED DEAD REDEMPTION II<br />
-This website consists of 4 pages: HOME, GAME, REVIEWS, ARTHUR MORGAN.<br />
-HOME: Red Dead Redemption 2 Intro.<br />
-GAME: Things that game contains.<br />
-REVIEWS: Reviews about the game. (Write and Post Review, Uses JSON, DOM and Javascript interaction).<br />
-ARTHUR MORGAN: Character Life (Game Story). Also contains write and post review, uses JSON, DOM and Javascript interaction.<br />
-Arthur Morgan page contains an image slideshow, so when you will visit Arthur Morgan page, the page will load all image one by one all at once, it will take some seconds to load all the images correctly, which will then display an image slideshow, so wait for some seconds before moving forward, let the slideshow load correctly.<br />
-Some of the reviews are already provided as an example on both 'REVIEWS' and 'ARTHUR MORGAN' page.
+![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-red?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
+![JSON](https://img.shields.io/badge/JSON-black?style=for-the-badge&logo=JSON)
 
-Images: Most of the images were taken from YouTube video channel 'SourceSpy91 (2020)', video reference is given in 'Reference' section. Used Microsoft Publisher and snipping tool to crop and edit the images.
+**Other Skills:** DOM Manipulation, Event Handling, Form Validation, Resposnive Design, BAsic UI Interactivity, Using JSON with JavaScript
 
-Git commit history also contains deleted 'RDR2' branch commits which had videos and html files, due to some error problem, it was deleted and replaced with new branch 'red'.
+---
 
-W3C Markup Validation Service: All html and css files are validated, contains 'no errors'. JavaScript files has been checked thoroughly, the web console shows 'no errors'.
+## 📂 Project Overview
 
-## Reference
+- **Website Name:** Red Dead Redemption II
+- **Purpose:** To create an interactive, multi-page tribute to the game while practicing front-end development.
+- **Pages:**
+  1. **Home:** Introduction to _Red Dead Redemption II_
+  2. **Game:** Overview of the video game
+  3. **Reviews:** Users can write and post reviews **Used JSON, DOM, and JavaScript interaction**
+  4. **Arthur Morgan:** Character life and story. Includes an **image slideshow** and user reviews section
+
+  **Note on Arthur Morgan Page:**
+  - The slideshow loads all image at once, so please wait a few seconds for the slideshow to display correctly before intercting.
+  - Example reviews are pre-filled on both **Reviews** and **Arthur Morgan** pages.
+
+  ***
+
+  ## 📂 File Structure
+  - **Master Repository:** Contains HTML, CSS, and JavaScript files
+  - **Assets:** Images and videos are stored in their respective 'images' and 'videos' folders
+  - **References:** Source for images and videos is provided, mostly from YouTube channel **SourceSpy91 (2020)**
+  - **Editing Tools:** Images were cropped/edited using Microsoft Publisher and Snipping Tool
+
+  ***
+
+  ## ⚙️ Browser Notes
+  - **Google Chrome Toggle Device Toolbar:**
+    - When resizing between mobile and desktop views, some overflow may occure (text partially hidden, page scrollable horizontally).
+    - If this happens, navigate to another page and return, or refresh the tab. This is a browser rendering issue and **not a problem with the code**.
+
+---
+
+## ✅ Code Quality & Validation
+
+- **HTML & CSS:** Validated with [W3C Markup Validation Service](https://validator.w3.org/), no errors
+- **JavaScript:** Checked in browser console, no errors
+- **Git History** Includes commits for all versions; old branch 'RDR2' was deleted due to file errors and replaced with branch 'red'
+
+---
+
+## 📬 Live Preview & Repository
+
+- [Live Website](https://project-rdr-2-website.vercel.app)
+- [GitHub Repo](https://github.com/JigarBlue/Project-RDR2-Website)
+
+---
+
+## 🔗 Reference
 
 Angie Harvey, Casey DeFreitas and Mudkip1430 (n.d.). Red Dead Redemption 2 Wiki Guide - IGN. [online] www.ign.com. Available at: https://www.ign.com/wikis/red-dead-redemption-2 [Accessed 7 Mar. 2021].
 
@@ -162,3 +203,7 @@ SourceSpy91 (2020). Red Dead Redemption 2 - ALL STORY MISSIONS (FULL GAME) - 144
 Tony Hayes. (n.d.). Red Dead Redemption Art. Pinterest. Available at: https://www.pinterest.co.uk/pin/399553798191942939/ [Accessed 10 Mar. 2021].
 
 Zanar Aesthetics (2018). Arthur gets capyured and tortured by O’Driscolls. YouTube. Available at: https://i.ytimg.com/vi/oZAkpYwCETM/maxresdefault.jpg [Accessed 12 Mar. 2021].
+
+---
+
+> ⚡️ _All pages are built using HTML5, CSS3, and vanilla JavaScript, demonstrating front-end fundamentals and interactive features using JSON and DOM._
