@@ -213,4 +213,18 @@ Zanar Aesthetics (2018). Arthur gets capyured and tortured by O’Driscolls. You
 
 ---
 
+## 🌱 Learning Outcomes
+
+Through this university coursework project, I was able to apply and strenghten my front-end development skills in practical way. I used what I learned during my studies to build an interactive multi-page website based on _Red Dead Redemption II_, focusing on both structure and user interaction.
+
+This project helped me improve my understanding of:
+
+- Building **multi-page website structures** using HTML
+- Creating **resposnsive layouts** with CSS
+- Using **Flexbox and CSS Grid** effectively for layout design
+- Implementing **interactive features using JavaScript and DOM manipulation**
+- Handling **user input through reviews system using JSON and JavaScript**
+- Debugging and indentifying issues using **Google Chrome DevTools (Inspect Element)**
+- Improving overall **UI design, usability, and user experience**
+
 > ⚡️ _All pages are built using HTML5, CSS3, and vanilla JavaScript, demonstrating front-end fundamentals and interactive features using JSON and DOM._
