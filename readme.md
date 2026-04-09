@@ -15,7 +15,7 @@ An interactive multi-page website built to practice front-end development fundam
 ![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
 ![JSON](https://img.shields.io/badge/JSON-black?style=for-the-badge&logo=JSON)
 
-**Other Skills:** DOM Manipulation, Event Handling, Form Validation, Resposnive Design, BAsic UI Interactivity, Using JSON with JavaScript
+**Other Skills:** DOM Manipulation, Event Handling, Form Validation, Resposnive Design, Basic UI Interactivity, Using JSON with JavaScript
 
 ---
 
@@ -27,7 +27,7 @@ An interactive multi-page website built to practice front-end development fundam
   1. **Home:** Introduction to _Red Dead Redemption II_
   2. **Game:** Overview of the video game
   3. **Reviews:** Users can write and post reviews **Used JSON, DOM, and JavaScript interaction**
-  4. **Arthur Morgan:** Character life and story. Includes an **image slideshow** and user reviews section
+  4. **Arthur Morgan:** Character life and story. Includes an **image slideshow** and **user reviews** section
 
   **Note on Arthur Morgan Page:**
   - The slideshow loads all image at once, so please wait a few seconds for the slideshow to display correctly before intercting.
