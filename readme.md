@@ -51,7 +51,7 @@ An interactive multi-page website built to practice front-end development fundam
     - If this happens, navigate to another page and return to same page, or refresh the tab. This is a browser rendering issue and **not a problem with the code**.
 
   - **Safari Browser:**
-  - The name input field, message textbox, and buttons in the **reviews section** on the **Reviews** and **Arthur Morgan** pages may appear slightly misaligned due to browser-specific rendering differences.
+    - The name input field, message textbox, and buttons in the **reviews section** on the **Reviews** and **Arthur Morgan** pages may appear slightly misaligned due to browser-specific rendering differences.
 
 ---
 
