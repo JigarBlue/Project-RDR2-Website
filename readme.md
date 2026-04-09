@@ -227,4 +227,6 @@ This project helped me improve my understanding of:
 - Debugging and indentifying issues using **Google Chrome DevTools (Inspect Element)**
 - Improving overall **UI design, usability, and user experience**
 
+---
+
 > ⚡️ _All pages are built using HTML5, CSS3, and vanilla JavaScript, demonstrating front-end fundamentals and interactive features using JSON and DOM._
