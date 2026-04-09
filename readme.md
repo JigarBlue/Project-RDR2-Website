@@ -44,9 +44,14 @@ An interactive multi-page website built to practice front-end development fundam
   ***
 
   ## ⚙️ Browser Notes
-  - **Google Chrome Toggle Device Toolbar:**
+
+  > ⚠️ **Important:** For the best experience, please open this website in **Google Chrome**. It displays all features correctly with no issues. Other browsers may have minor layout inconsistencies.
+  - **Google Chrome (Toggle Device Toolbar):**
     - When resizing between mobile and desktop views, some overflow may occure (text partially hidden, page scrollable horizontally).
-    - If this happens, navigate to another page and return, or refresh the tab. This is a browser rendering issue and **not a problem with the code**.
+    - If this happens, navigate to another page and return to same page, or refresh the tab. This is a browser rendering issue and **not a problem with the code**.
+
+  - **Safari Browser:**
+  - The name input field, message textbox, and buttons in the **reviews section** on the **Reviews** and **Arthur Morgan** pages may appear slightly misaligned due to browser-specific rendering differences.
 
 ---
 
