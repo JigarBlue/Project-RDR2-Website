@@ -1,6 +1,6 @@
 # Red Dead Redemption II Tribute Website 🎮
 
-**Front-End Website development | University Coursework | HTML5, CSS3, JavaScript**
+**Front-End Website Development | University Coursework | HTML5, CSS3, JavaScript**
 
 An interactive multi-page website built to practice front-end development fundamentals. The site includes pages about the game, its charcaters, and a **reviews page where users can post comments about the game**, showcasing both layout design and interactive features.
 
